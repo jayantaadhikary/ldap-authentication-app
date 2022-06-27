@@ -6,7 +6,6 @@
 .pnp.js
 /.node_modules
 /..node_modules
-/summer-project/node_modules
 # testing
 /coverage
 
