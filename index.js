@@ -43,7 +43,7 @@ app.listen(5000, () => {
 function authenticateDN(username, password) {
   // create client
   const client = ldap.createClient({
-    url: "ldap://127.0.0.1:10389",
+    url: "ldap://127.0.0.1:10389", //ldap domain
   });
   //   bind - passes credential and if credential is correct we can understand that the connection has been successful
   client.bind(username, password, (err) => {
